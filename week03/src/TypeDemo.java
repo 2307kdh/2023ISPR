@@ -16,7 +16,7 @@ public class TypeDemo {
         // 1111 1111(2) -1(10)
         //AC
         //1010 1100
-        //0101 0011 //1's complement
+        //0101 0011 // 1's complement
         //+       1 // 2's complement
         // 0101 0100(2)
         //64+16+4 == 84
