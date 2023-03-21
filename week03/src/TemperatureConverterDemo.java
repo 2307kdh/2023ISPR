@@ -2,6 +2,8 @@ import java.util.Scanner;
 public class TemperatureConverterDemo {
     public static void main(String[] args) {
         double f=0.0,c=0.0,k=0.0;
+        char sans = '\uAC00';
+        System.out.println(sans);
         Scanner scanner = new Scanner(System.in);
         // 1) 화씨에서 섭씨로 2) 섭씨에서 화씨로 3) 종료
         while(true){
