@@ -2,10 +2,10 @@ package main;
 import java.util.Scanner;
 public class GameDemo {
     public static void main(String[] args) {
-        char player = Character.Dao;
-        char wichi = japanroute.Iriomote;
+        Character player = Character.Dao;
+        japanroute wichi = japanroute.Iriomote;
         if(wichi == japanroute.Iriomote)
-            System.out.print("이리오모테에 간");
+            System.out.print("이리오모테에 간 ");
         if(player == Character.Dao){
             System.out.println("섭종당한 킹오");
         } else if (player == Character.Dizini){
