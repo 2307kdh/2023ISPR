@@ -29,13 +29,7 @@ public class pokemon {
         return count;
     }
 
-    public String getHg() {
-        return hg;
-    }
 
-    public void setHg(String hg) {
-        this.hg = hg;
-    }
 
     public int getLevel() {
         return level;
