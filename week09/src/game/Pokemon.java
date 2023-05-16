@@ -28,4 +28,5 @@ public class Pokemon {
     public void setName(String name) {
         this.name = name;
     }
+
 }
