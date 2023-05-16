@@ -13,7 +13,7 @@ public class Squirtle extends Pokemon{
     }
 
     @Override
-    void attack() {
+    public void attack() {
         System.out.println(this.name+"가 광역 물대포 공격을 합니다");
     }
 }
