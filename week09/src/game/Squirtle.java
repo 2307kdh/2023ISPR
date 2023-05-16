@@ -7,13 +7,13 @@ public class Squirtle extends Pokemon{
         this.setName("꼬부기");}
     public Squirtle(int level, int hp){
         super();
-        this.setHp(hp);
-        this.setLevel(level);
-        this.setName("꼬부기");
+        this.hp = hp;
+        this.level = level;
+        this.name="꼬부기";
     }
 
     @Override
     void attack() {
-        System.out.println(this.getName()+"가 광역 물대포 공격을 합니다");
+        System.out.println(this.name+"가 광역 물대포 공격을 합니다");
     }
 }

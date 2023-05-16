@@ -7,11 +7,11 @@ public class Pikachu extends Pokemon{
         this.setName("Pikachu");}
     public Pikachu(int level, int hp){
         super();
-        this.setHp(hp);
-        this.setLevel(level);
-        this.setName("Pikachu");
+        this.hp = 35; // without setter, protected access
+        this.level = level;
+        this.name = "Pikachu";
     }
     @Override
     public void attack() {
-        System.out.println(this.getName()+"가 광역 백만볼트 공격을 시전합니다.");}
+        System.out.println(this.name+"가 광역 백만볼트 공격을 시전합니다.");}
 }
