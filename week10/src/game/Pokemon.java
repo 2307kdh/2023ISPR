@@ -9,6 +9,7 @@ public abstract class Pokemon {
         this.flyable = flyable;
     }
     public void performFly(){
+        System.out.println(this.name+" ");
         this.flyable.fly();
     }
 
