@@ -32,6 +32,9 @@ public class Pokemon {
         System.out.println(this.name+"이(가) 광역 공격을 시전합니다.");
     }
     public void attack(Pokemon target){
+        if(target instanceof Pikachu){
+            System.out.println("pika pika~");
+        }
         System.out.println(this.name+"does a attack to "+target.name);
     }
 

@@ -1,4 +1,7 @@
 package game;
+
+import javax.swing.plaf.SpinnerUI;
+
 public class PokemonGame {
     public static void main(String[] args) {
         Trainer trainer = new Trainer();//default asdfasdf asdfasdf by jdk
@@ -14,5 +17,6 @@ public class PokemonGame {
         pikachu1.ElectricInfo();
         pikachu1.attack(squirtle1);
         pikachu1.attack(charizard1);
+        pikachu1.attack(pikachu1);
     }
 }
