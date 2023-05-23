@@ -4,6 +4,7 @@ import javax.swing.plaf.SpinnerUI;
 
 public class PokemonGame {
     public static void main(String[] args) {
+        //Pokemon pokemon = new Pokemon(); Cannot create because of abstract
         Trainer trainer = new Trainer();//default asdfasdf asdfasdf by jdk
         Squirtle squirtle1 = new Squirtle();
         Charizard charizard1 = new Charizard(36,80);
