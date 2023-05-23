@@ -4,6 +4,14 @@ public abstract class Pokemon {
     protected int level;
     protected int hp;
     protected String name;
+    flyBehavior flyable;
+    public void setFlyable(flyBehavior flyable) {
+        this.flyable = flyable;
+    }
+    public void performFly(){
+        this.flyable.fly();
+    }
+
 
     public int getLevel() {
         return level;
