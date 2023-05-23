@@ -7,7 +7,7 @@ public class PokemonGame {
         Charizard charizard = new Charizard();
         System.out.println(charizard.getName());
         Pikachu pikachu = new Pikachu(14,165);
-        pikachu.setHp(99); //can not access protected variable(different package
+        pikachu.setHp(99); //can not access protected variable(different package and it is not a child class)
         //System.out.println(pikachu.getHp());
         System.out.println(pikachu.getHp());
         Squirtle squirtle = new Squirtle();
