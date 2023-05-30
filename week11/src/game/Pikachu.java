@@ -1,6 +1,6 @@
 package game;
 
-public class Pikachu extends Pokemon{
+public class Pikachu extends Pokemon implements FlyBehavior{
     public Pikachu(){
         this.setHp(35);
         this.setLevel(1);
@@ -17,4 +17,9 @@ public class Pikachu extends Pokemon{
     @Override
     public void attack() {
         System.out.println(this.name+"가 광역 백만볼트 공격을 시전합니다.");}
+
+    @Override
+    public void fly() {
+        System.out.println("fly");
+    }
 }

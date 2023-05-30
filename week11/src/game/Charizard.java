@@ -10,6 +10,9 @@ public class Charizard extends Pokemon{
         this.setLevel(level);
         this.setName("Charizard");
     }
+    void fireInfo(){
+        System.out.println("불타오르네");
+    }
     @Override
     public void attack() {
         System.out.println(this.name+"가 광역 물대포 공격을 합니다");}
