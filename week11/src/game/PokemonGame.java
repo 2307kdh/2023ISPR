@@ -15,6 +15,8 @@ public class PokemonGame {
         charizard.attack();
         Pikachu pikachu2 = (Pikachu) pikachu;
         pikachu2.ElectricInfo();
+        pikachu2.setFlyable(new Balloon());
+        pikachu2.performFly();
         //below methoddsd can't use with parent's variable
 //        pikachu.electricInfo();
 //        charizard.fireInfo();

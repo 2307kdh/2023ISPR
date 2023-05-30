@@ -1,6 +1,6 @@
 package game;
 
-public class Squirtle extends Pokemon implements FlyBehavior{
+public class Squirtle extends Pokemon{
     public Squirtle(){
         this.setHp(35);
         this.setLevel(1);
@@ -17,8 +17,5 @@ public class Squirtle extends Pokemon implements FlyBehavior{
         System.out.println(this.name+"가 광역 물대포 공격을 합니다");
     }
 
-    @Override
-    public void fly() {
-        System.out.println("fly with");
-    }
+
 }
