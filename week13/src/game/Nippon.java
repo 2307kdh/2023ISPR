@@ -1,4 +1,4 @@
 package game;
 
-public class Nippon {
+public abstract class Nippon {
 }

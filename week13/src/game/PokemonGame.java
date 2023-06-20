@@ -17,16 +17,15 @@ public class PokemonGame {
             }
         });
         charizard.performFly();
-        pikachu.attack();
-        charizard.attack();
         Pikachu pikachu2 = (Pikachu) pikachu;
         pikachu2.ElectricInfo();
         pikachu2.setFlyable(new Balloon());
         pikachu2.performFly();
+        System.out.println(pikachu2.equals(pikachu));
         try{
-        pikachu2.attack(d1);
+        pikachu.attack(d1);
         }catch (Exception e) {
-
+            System.out.println(e.getMessage());
         }
         //below methoddsd can't use with parent's variable
 //        pikachu.electricInfo();

@@ -38,14 +38,19 @@ public abstract class Pokemon extends Nippon{
         this.name = name;
     }
     public abstract void attack();
-    public void attack(Pokemon target)throws Exception{
-        if(this instanceof Digimon){
+    public void attack(Nippon target)throws Exception{
+        if(target instanceof Digimon){
             throw new Exception("ポケットモンじゃない～～");
-        }
-        if(this instanceof Pikachu){
-            System.out.println("pika pika~")
-        }
-        System.out.println(this.name+"does a attack to "+target.name);
+        }else if(target instanceof Pokemon){if(this instanceof Pikachu){
+            System.out.println("pika pika~");
+        }}
+        Pokemon targetpokemon = (Pokemon)target;
+
+        System.out.println(this.name+"does a attack to "+targetpokemon.name);
     }
 
+    @Override
+    public String toString() {
+        return this.getName()+"[HashCode: "+Integer.toHexString(hashCode())+"]";
+    }
 }
